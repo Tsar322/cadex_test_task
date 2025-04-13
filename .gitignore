@@ -1,0 +1,39 @@
+# Build artifacts
+out
+build
+
+# IDE-specific files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.suo
+*.user
+.idea/
+*.iml
+
+# Generic build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.app
+
+# Operating system files
+.DS_Store  # macOS
+
+# Temporary files
+*~
+\#*\#
+*.swp
+
+# System-specific settings
+CMakeSettings.json
+CMakeLists.txt.qtds
+CMakePresets.json
+CMakeUserPresets.json
+CMakeLists.txt.user
